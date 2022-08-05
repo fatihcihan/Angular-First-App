@@ -1,10 +1,18 @@
-<input type="text" [(ngModel)]="inputText"><br>
+<a href="home">Home</a> ||<a href="products"> Products </a> || <a href="categories"> Categories</a>
+<!--router outlet sayfalar arasi yonlendirme yapmamizi sagliyor (routing.ts'de configure etmemiz lazim)-->
+<router-outlet></router-outlet>
 
 
 
 
-<button>{{ inputText }}</button>
+<!-- <input type="text" [(ngModel)]="inputText"><br><br>
+<input type="text" [value]="inputText2"><br><br>
+
+<button (click)="changeInput()">Click Me</button> -->
+
+
+<!-- <button>{{ inputText }}</button> -->
 <!--  
   eger koseli parantez verirsek proje icinde degisken arar -> yukaridaki ngModel gibi
-  eger normal parantez dersek method arar  
+  eger normal parantez dersek methodu cagirir  
 -->
